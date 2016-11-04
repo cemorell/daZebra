@@ -6,6 +6,9 @@ $border: 1px solid #D3D3D3;
 $bright-blue: #1CBEEC;
 $section-padding: 130px 250px;
 
+html {
+  scroll-behavior: smooth;
+}
 body{
   padding: 0;
   margin: 0;
@@ -55,15 +58,15 @@ body{
     padding-top: px;
   }
 }
+
 #catagories{
   text-align: center;
   padding: $section-padding;
-  div{
-    display: inline-block;
-  }
+  border-bottom: $border;
   h3{
     font-size: 26px;
     color: $dark-text;
+    padding-bottom: 25px;
   }
   img{
     height: 50px;
@@ -83,6 +86,7 @@ body{
     letter-spacing: 2px;
   }
   div{
+    display: inline-block;
     padding: 20px;
     margin: 20px;
     height: 100px;
@@ -91,4 +95,33 @@ body{
     box-shadow: 1px 1px 10px #888888;
     border-radius: 10px;
   }
+    a{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: $border;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 10px;
+  }
+}
+
+#airports{
+  padding: $section-padding;
+  border-bottom: $border;
+  h2{
+    text-align: center;
+  }
+}
+#cabs{
+    @extend #airports;
+}
+#subway{
+  @extend #airports;
+}
+.blue {
+  background-color: $bright-blue;
+  opacity: 0.5;
+  z-index: 1;
 }

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 body {
   padding: 0;
   margin: 0;
@@ -40,12 +43,12 @@ body {
 
 #catagories {
   text-align: center;
-  padding: 130px 250px; }
-  #catagories div {
-    display: inline-block; }
+  padding: 130px 250px;
+  border-bottom: 1px solid #D3D3D3; }
   #catagories h3 {
     font-size: 26px;
-    color: #4A4A4A; }
+    color: #4A4A4A;
+    padding-bottom: 25px; }
   #catagories img {
     height: 50px;
     width: 100%;
@@ -62,6 +65,7 @@ body {
     margin-top: 25px;
     letter-spacing: 2px; }
   #catagories div {
+    display: inline-block;
     padding: 20px;
     margin: 20px;
     height: 100px;
@@ -69,5 +73,25 @@ body {
     border: 1px solid #D3D3D3;
     box-shadow: 1px 1px 10px #888888;
     border-radius: 10px; }
+  #catagories a {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #D3D3D3;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 10px; }
+
+#airports, #cabs, #subway {
+  padding: 130px 250px;
+  border-bottom: 1px solid #D3D3D3; }
+  #airports h2, #cabs h2, #subway h2 {
+    text-align: center; }
+
+.blue {
+  background-color: #1CBEEC;
+  opacity: 0.5;
+  z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
