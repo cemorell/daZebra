@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font: 100% Helvetica, sans-serif; }
+
+#herohead {
+  background-image: url("images/bg-nyc.png");
+  color: #FFFFFF;
+  padding: 40px 18%;
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+  #herohead h1 {
+    font-size: 72px;
+    line-height: 70px; }
+  #herohead p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 20%; }
+  #herohead img {
+    padding-bottom: 15%; }
+
+#nycNav {
+  border-bottom: 1px solid #D3D3D3;
+  padding-left: 18%;
+  padding-bottom: 5px; }
+  #nycNav p {
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 14px; }
+    #nycNav p:nth-child(5) {
+      border-bottom: 2px solid #1CBEEC; }
+  #nycNav a {
+    text-decoration: none;
+    color: #4A4A4A; }
+  #nycNav img {
+    padding-top: px; }
+
+#catagories {
+  text-align: center;
+  padding: 130px 250px; }
+  #catagories div {
+    display: inline-block; }
+  #catagories h3 {
+    font-size: 26px;
+    color: #4A4A4A; }
+  #catagories img {
+    height: 50px;
+    width: 100%;
+    display: block;
+    padding-bottom: 18%;
+    margin-top: 11px; }
+  #catagories button {
+    background-color: #1CBEEC;
+    padding: 8px 10px;
+    color: white;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 25px;
+    letter-spacing: 2px; }
+  #catagories div {
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #D3D3D3;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */

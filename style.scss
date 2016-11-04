@@ -1,0 +1,94 @@
+$font-stack:    Helvetica, sans-serif;
+$dark-text: #4A4A4A;
+$light-text: #FFFFFF;
+$padding: 18%;
+$border: 1px solid #D3D3D3;
+$bright-blue: #1CBEEC;
+$section-padding: 130px 250px;
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font: 100% $font-stack;
+}
+
+#herohead {
+  background-image: url("images/bg-nyc.png");
+  color: $light-text;
+  padding: 40px $padding;
+  height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  h1 {
+    font-size: 72px;
+    line-height: 70px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 20%;
+  }
+  img{
+    padding-bottom: 15%;
+  }
+}
+
+#nycNav{
+  border-bottom: $border;
+  padding-left: $padding;
+  padding-bottom: 5px;
+  p{
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 14px;
+      &:nth-child(5){
+        border-bottom: 2px solid $bright-blue;
+      }
+  }
+  a{
+    text-decoration: none;
+    color: $dark-text;
+  }
+  img{
+    padding-top: px;
+  }
+}
+#catagories{
+  text-align: center;
+  padding: $section-padding;
+  div{
+    display: inline-block;
+  }
+  h3{
+    font-size: 26px;
+    color: $dark-text;
+  }
+  img{
+    height: 50px;
+    width: 100%;
+    display: block;
+    padding-bottom: $padding;
+    margin-top: 11px;
+  }
+  button{
+    background-color: $bright-blue;
+    padding: 8px 10px;
+    color: white;
+    width: 100px;
+    border-radius: 25px;
+    border:none;
+    margin-top: 25px;
+    letter-spacing: 2px;
+  }
+  div{
+    padding: 20px;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border: $border;
+    box-shadow: 1px 1px 10px #888888;
+    border-radius: 10px;
+  }
+}
